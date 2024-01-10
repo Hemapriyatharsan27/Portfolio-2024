@@ -637,7 +637,7 @@ footer span a:hover{
         padding: 0 23px;
     }
     .home .home-content .text-2{
-        font-size: 60px;
+        font-size: 30px; /* username font changed.*/
     }
     .home .home-content .text-3{
         font-size: 32px;
