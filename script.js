@@ -37,14 +37,14 @@ $(document).ready(function(){
     var typed = new Typed(".typing", {
         strings: ["Software developer"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 100000,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
         strings: ["Software Developer"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 100000,
         loop: true
     });
 
