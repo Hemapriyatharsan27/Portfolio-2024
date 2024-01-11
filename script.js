@@ -36,14 +36,15 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Software developer"],
-        typeSpeed: 100,
+       
+        typeSpeed: 50,
         backSpeed: 100000,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Software Developer"],
-        typeSpeed: 100,
+        strings: ["Software Developer."],
+        typeSpeed: 200,
         backSpeed: 100000,
         loop: true
     });
@@ -53,7 +54,7 @@ $(document).ready(function(){
         margin: 20,
         loop: true,
         autoplay: true,
-        autoplayTimeOut: 2000,
+        autoplayTimeOut: 200,
         autoplayHoverPause: true,
         responsive: {
             0:{
